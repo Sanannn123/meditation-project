@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header nav {
+  margin-top: 20px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header nav ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+body header nav ul a {
+  color: #555555;
+}
+
+body header nav ul a:hover {
+  text-decoration: none;
+  color: #f3cb17;
+}
+
+body main {
+  margin-top: 20px;
+  background-image: url(/images/john-towner-prd5CXMsD68-unsplash.jpg);
+  background-size: cover;
+  min-height: 50rem;
+}
+
+body main .text {
+  color: #ffffff;
+  position: absolute;
+  top: 17em;
+  left: 30px;
+}
+
+body main .text h1 {
+  font-size: 50px;
+}
+
+body main .text p {
+  width: 30%;
+  font-size: 30px;
+  word-spacing: 10px;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer .card-body .card-text {
+  font-weight: bold;
+}
+
+body footer .card-body button {
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  color: white;
+  background-color: #a2c172;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
